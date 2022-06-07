@@ -19,6 +19,6 @@ The Flask application will act as an interface for the user in which the user ca
 
 
 
-If something doesn't work, please [file an issue](issues/new). If you have questions, suggestions or need help, [feel free to open an issue](issues/new).
+If something doesn't work, please [file an issue](https://github.com/00surya/E-Commerce-Price-Tracker/issues/new). If you have questions, suggestions or need help, [feel free to open an issue](https://github.com/00surya/E-Commerce-Price-Tracker/issues/new).
 
 
