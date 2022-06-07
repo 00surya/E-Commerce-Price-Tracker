@@ -11,7 +11,8 @@ app.secret_key = b'\xb1o\x95\x95/\x89\xd3\x8e\xd2)\xc0\t\xf1Q\x0b\x18*\xa5\xf04#
 
 
 # Database
-client = pymongo.MongoClient("mongodb+srv://surya:Unm4cwq8eiRTtoiV@trackbuddy00.0gnin.mongodb.net/track_budd?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+client = pymongo.MongoClient("Your MongoDb URI", tlsCAFile=certifi.where())
+# MongoDb URI looks like this ->  mongodb+srv://username:passsword@cluster0.mongodb.net/API?retryWrites=true&w=majority”
 db = client.track_budd
 
 
