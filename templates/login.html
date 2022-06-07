@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block log_sin %}Sign Up{% endblock %}
+{% block log_sin_url %}/{% endblock %}
+{% block content %}
+
+
+
+<div class="card-wrapper">
+
+    <div class="user_card">
+
+        <h1 class="center t-g">Log In</h1>
+
+        <form name="login_form">
+            
+            <label for="email" class="t-g"><b>Email</b></label>
+            <input type="email" name="email" class="field" required>
+            
+            <label for="password" class="t-g"><b>Password</b></label>
+            <input type="password" name="password" id="pass_v" class="field" required>
+            
+            <input type="checkbox" onclick="show_pass(this)"><label for="" class="mx-2">show password</label>
+            <p class="error error--hidden"></p>
+
+            <input type="submit" value="Log In" class="btn btn-success" style="background-color: #0e7a0d;">
+            
+        </form>
+        <div style=" margin-top: -20px; cursor: pointer; margin-top: 10px;" id="f_p">
+            <a style="font-size: 15px; text-decoration-line: underline;" href='/user/pass/reset' class="t-g">Forget Password?</a>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
